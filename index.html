@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gráficos com Google Charts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <h1>Selecione o quanto você se identifica com cada área</h1>
+
+  <form id="inputForm">
+    <label for="academia">Inteligência Acadêmica:</label>
+    <select id="academia">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+    </select>
+    <br>
+    <label for="analise">Análise:</label>
+    <select id="analise">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+    </select>
+    <br>
+    <label for="arte">Arte:</label>
+    <select id="arte">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+    </select>
+    <br>
+    <label for="divulgacao">Divulgacão</label>
+    <select id="divulgacao">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="cozinhar">Cozinhar</label>
+    <select id="cozinhar">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="tecnologia">Tecnologia</label>
+    <select id="tecnologia">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+
+    </select>
+    <br>
+
+    <label for="economia">Economia</label>
+    <select id="economia">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="engenharia">Engenharia</label>
+    <select id="engenharia">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="Entretenimento">Entrenimento</label>
+    <select id="entretenimento">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="risco">Correr Riscos</label>
+    <select id="risco">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="hospitalidade">hospitalidade</label>
+    <select id="hospitalidade">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="literatura">Literatura</label>
+    <select id="literatura">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="administracao">Administração</label>
+    <select id="administracao">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="cinema">Cinema/Teatro</label>
+    <select id="cinema">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="musica">Música</label>
+    <select id="musica">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="raciocinio">Raciocínio Numérico</label>
+    <select id="raciocinio">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="educacao">Educação Infantil</label>
+    <select id="educacao">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="ciencia">Ciências</label>
+    <select id="ciencia">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="esportes">Esportes</label>
+    <select id="esportes">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="empreender">Empreender</label>
+    <select id="empreender">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="ensinar">Ensino Infantil</label>
+    <select id="ensinar">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+    <label for="compreender">Compreender as Pessoas</label>
+    <select id="compreender">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+    <label for="habilidade_verbal">Habilidade Verbal</label>
+    <select id="habilidade_verbal">
+      <option value="0">Baixo</option>
+      <option value="1">Médio</option>
+      <option value="2">Alto</option>
+      <option value="3">Olímpico</option>
+
+    </select>
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+
+    <button type="submit">Atualizar gráfico</button>
+  </form>
+
+  <div id="barchart_values" style="width: 1200px; height: 600px;"></div>
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
